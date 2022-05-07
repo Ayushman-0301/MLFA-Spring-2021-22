@@ -12,3 +12,22 @@ ISMR can be predicted using the potential drivers, but the lags can be different
 Plot the true values vs predicted values of ISMR in scatter plots for different lags separately. Find out which lag is statistically showing best result and elaborate why.
 
 Repeat the experiment (2,3) for SVM with different kernel values to find the best performing one. Use grid search method to find the best performance.[S_n_I_A_N_P_An_Io_noaa2.txt](https://github.com/Ayushman-0301/MLFA-Spring-2021-22/files/8645058/S_n_I_A_N_P_An_Io_noaa2.txt)
+
+
+<h3>The question for assignment 6 is stated below:</h3>
+Download the attached dataset ‘Twitter_data.csv’. The dataset contains the usage data of twitter along with the days of the week (Friday-Sunday). The columns present in the dataset are ‘TweetID’, ‘Day’, ‘Hour’, ‘Lang’, ‘IsReshare’, ‘Reach’, ‘RetweetCount’, ‘Likes’, ‘Sentiment’, ‘text’, ‘LocationID’, ’UserID’. All the columns are self-explanatory. We will use the data to cluster them according to the days of a week. 
+
+Check for any missing values in the dataset. If there, drop the rows. 
+
+Drop any redundant column. (If you feel it is needed) 
+
+Separate the target column(‘Day’) from the dataset and convert it from categorical to integer. 
+
+Visualize the dendogram of the data. 
+
+Implement Hierarchical Agglomerative clustering with single and complete linkage both to cluster the dataset. You have to write the code from scratch without using any package for the clustering method. You can use general packages like numpy, pandas, matplotlib etc. 
+
+Plot the resultant clusters in scatter plot. 
+
+Report the percentage accuracy of the clustering. 
+[Twitter_data.csv](https://github.com/Ayushman-0301/MLFA-Spring-2021-22/files/8645067/Twitter_data.csv)
