@@ -31,3 +31,33 @@ Plot the resultant clusters in scatter plot.
 
 Report the percentage accuracy of the clustering. 
 [Twitter_data.csv](https://github.com/Ayushman-0301/MLFA-Spring-2021-22/files/8645067/Twitter_data.csv)
+
+
+<h3>The question for assignment 7 is stated below:</h3>
+Features need to be considered: na_value = ‘?’
+
+age: age in years
+sex: sex (1 = male; 0 = female)
+cp: chest pain type
+– 1: typical angina
+– 2: atypical angina
+– 3: non-anginal pain
+– 4: asymptomatic
+trestbps: resting blood pressure (in mm Hg on admission to the hospital)
+chol: serum cholesterol in mg/dl
+fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+restecg: resting electrocardiographic results
+– 0: normal
+– 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+– 2: showing probable or definite left ventricular hypertrophy by Estes’ criteria
+thalach: maximum heart rate achieved
+exang: exercise-induced angina (1 = yes; 0 = no)
+oldpeak: ST depression induced by exercise relative to rest
+
+Using this data implement following regression techniques from scratch without using any library function.
+
+Linear Regression
+Lasso Regression
+Ridge Regression
+
+[data.csv](https://github.com/Ayushman-0301/MLFA-Spring-2021-22/files/8645071/data.csv)
